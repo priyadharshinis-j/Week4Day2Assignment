@@ -71,11 +71,7 @@ public class Chittorgarh {
 			System.out.println(stringList1.get(i));
 		}
 		
-//		System.out.println("===============Set=====================================");
-//		System.out.println(stringSet);
-//		System.out.println("==================String===============================");
-//		String string = stringSet.toString();
-//		System.out.println(string);
+
 		
 		
 		
