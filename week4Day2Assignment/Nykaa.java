@@ -126,7 +126,7 @@ public class Nykaa {
 		
 		String grandTotal_ = driver.findElement(By.xpath("(//div[@class='value'])[2]//span")).getText();
 		System.out.println("Grand Total in Cart===>"+grandTotal_);
-//		driver.quit();
+		driver.quit();
 	}
 
 }
