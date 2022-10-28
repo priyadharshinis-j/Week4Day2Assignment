@@ -23,12 +23,12 @@ public class TagsAndTablesAssignment3 {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		//WebDriver driverValue;
+		
 		driver.get("https://html.com/tags/table/");
 		
 		List<WebElement> rowValues = driver.findElements(By.xpath("//td[text()='Absolute Usage']/parent::tr/td"));
 		
-		//List<String> stringList = new ArrayList<String>();
+		
 		System.out.println("Absolute Usage Libray Values");
 		for(int i=1;i<=rowValues.size()-1;i++)
 		{
