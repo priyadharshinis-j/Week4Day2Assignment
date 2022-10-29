@@ -96,7 +96,7 @@ public class SnapDeal {
 		String price = driver.findElement(By.className("payBlkBig")).getText();
 		System.out.println("Price of the product==> Rs"+price);
 		
-		String discount = driver.findElement(By.xpath("//span[text()='15% Off']")).getText();
+		String discount = driver.findElement(By.xpath("//span[@class='percent-desc ']")).getText();
 		System.out.println("Discount price===> "+discount);
 		
 		driver.findElement(By.xpath("//div[contains(@class,'close close1')]")).click();
